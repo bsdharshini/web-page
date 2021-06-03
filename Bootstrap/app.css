@@ -1,0 +1,59 @@
+body {
+  background-color: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+}
+#mainNavBar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavBar .nav-link {
+  color: white;
+}
+
+#mainNavBar .nav-link:hover {
+  background-color: #ea1c2c;
+}
+#samosa span {
+  color: #e63946;
+}
+#samosa h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+#naan h1 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+#naan p {
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+#kaalan h1 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+#kaalan p {
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+#pav h1 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+#pav p {
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+.navbar.scrolled {
+  background: #ea5656d0;
+  transition: background 500ms;
+}
+@media (max-width: 1200px) {
+  #samosa h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
